@@ -325,6 +325,8 @@ public:
 		return;
 	}
 
+	typedef T value_type; // For container adaptation
+
 private:
 	static const int SPARE_CAPACITY = 2;
 	int theSize;
